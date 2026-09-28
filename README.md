@@ -25,10 +25,10 @@ If you're prototyping, calling IPFly directly from the browser with a domain-res
 
 ## Installation
 
-### Option A — Script tag (no build step)
+### Option A — Script tag from our public CDN with versioning (no build step)
 
 ```html
-<script src="/path/to/ipfly-sdk.js"></script>
+<script src="https://ipfly.world/libs/javascript-sdk/1.0.0.js"></script>
 <script>
   const ipfly = IPFly.createClient({ token: 'YOUR_TOKEN' });
 </script>
